@@ -1,3 +1,4 @@
+// MyActor.h
 
 #pragma once
 
@@ -6,20 +7,13 @@
 #include "MyActor.generated.h"
 
 UCLASS()
-class TEST_API AMyActor : public AActor
+class TEAMPROJECT_API AMyActor : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
 
+public:
 	AMyActor();
 
-protected:
-
 	virtual void BeginPlay() override;
-
-public:	
-
-	virtual void Tick(float DeltaTime) override;
 
 };
