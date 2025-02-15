@@ -14,5 +14,5 @@ public:
 
 	AMyActor();
 
-
+	virtual void BeginPlay() override;
 };
